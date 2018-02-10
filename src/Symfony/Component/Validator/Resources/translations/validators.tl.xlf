@@ -36,7 +36,7 @@
             </trans-unit>
             <trans-unit id="9">
                 <source>This field was not expected.</source>
-               <target>Ang larangang ito ay hindi inaasahan.</target>
+                <target>Ang larangang ito ay hindi inaasahan.</target>
             </trans-unit>
             <trans-unit id="10">
                 <source>This field is missing.</source>
@@ -164,7 +164,7 @@
             </trans-unit>
             <trans-unit id="44">
                 <source>The image width is too small ({{ width }}px). Minimum width expected is {{ min_width }}px.</source>
-                <target>Ang lapad ng imahe ay masyadong maliit ({{ width }}px). Ng pinakamaliit na pinapayagang lapay ay {{ min_width }}px.</target>
+                <target>Ang lapad ng imahe ay masyadong maliit ({{ width }}px). Ng pinakamaliit na pinapayagang lapad ay {{ min_width }}px.</target>
             </trans-unit>
             <trans-unit id="45">
                 <source>The image height is too big ({{ height }}px). Allowed maximum height is {{ max_height }}px.</source>
@@ -224,7 +224,7 @@
             </trans-unit>
             <trans-unit id="59">
                 <source>This is not a valid International Bank Account Number (IBAN).</source>
-                <target>Ito ay hindi isang balidong International Bank Account Number (IBAN). </target>
+                <target>Ito ay hindi isang balidong International Bank Account Number (IBAN).</target>
             </trans-unit>
             <trans-unit id="60">
                 <source>This value is not a valid ISBN-10.</source>
@@ -316,4 +316,4 @@
             </trans-unit>
         </body>
     </file>
-</xliff>
+ </xliff>
