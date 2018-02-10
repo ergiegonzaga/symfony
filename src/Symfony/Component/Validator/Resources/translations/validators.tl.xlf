@@ -28,7 +28,7 @@
             </trans-unit>
             <trans-unit id="7">
                 <source>You must select at most {{ limit }} choice.|You must select at most {{ limit }} choices.</source>
-                <target>Kailangan mong pumili ng pinakamataas {{ limit }} ng pagpipilian.| Kailangan mong pumili ng pinakamataas {{ limit }} ng mga pagpipilian.</target>
+                <target>Kailangan mong pumili ng pinakamataas {{ limit }} ng pagpipilian.|Kailangan mong pumili ng pinakamataas {{ limit }} ng mga pagpipilian.</target>
             </trans-unit>
             <trans-unit id="8">
                 <source>One or more of the given values is invalid.</source>
@@ -68,7 +68,7 @@
             </trans-unit>
             <trans-unit id="17">
                 <source>The mime type of the file is invalid ({{ type }}). Allowed mime types are {{ types }}.</source>
-                <target>Ang uri ng file ng mime ay hindi balido ({{ type }}).Ang mga pinapayagang uri ng mime ay ang  {{ types }}.</target>
+                <target>Ang uri ng file ng mime ay hindi balido ({{ type }}).Ang mga pinapayagang uri ng mime ay ang {{ types }}.</target>
             </trans-unit>
             <trans-unit id="18">
                 <source>This value should be {{ limit }} or less.</source>
@@ -80,7 +80,7 @@
             </trans-unit>
             <trans-unit id="20">
                 <source>This value should be {{ limit }} or more.</source>
-                <target>Ang halaga nito ay dapat na {{ limitasyon }} o mas marami pa.</target>
+                <target>Ang halaga nito ay dapat na {{ limit }} o mas marami pa.</target>
             </trans-unit>
             <trans-unit id="21">
                 <source>This value is too short. It should have {{ limit }} character or more.|This value is too short. It should have {{ limit }} characters or more.</source>
@@ -120,7 +120,7 @@
             </trans-unit>
             <trans-unit id="33">
                 <source>The file is too large.</source>
-                <target>Ang file na ito ay masyadong malaki..</target>
+                <target>Ang file na ito ay masyadong malaki.</target>
             </trans-unit>
             <trans-unit id="34">
                 <source>The file could not be uploaded.</source>
