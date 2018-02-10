@@ -12,7 +12,7 @@
             </trans-unit>
             <trans-unit id="3">
                 <source>This value should be of type {{ type }}.</source>
-                <target>Ang halaga nito ay dapat sa uri {{ uri }}.</target>
+                <target>Ang halaga nito ay dapat sa uri {{ type }}.</target>
             </trans-unit>
             <trans-unit id="4">
                 <source>This value should be blank.</source>
@@ -24,11 +24,11 @@
             </trans-unit>
             <trans-unit id="6">
                 <source>You must select at least {{ limit }} choice.|You must select at least {{ limit }} choices.</source>
-                <target>Kailangan mong pumili ng pinakamababang {{ limitasyon }} ng pagpilian.|Kailangan mong pumili ng pinakamababang{{ limitasyon }}ng mga pagpipilian.</target>
+                <target>Kailangan mong pumili ng pinakamababang {{ limit }} ng pagpilian.|Kailangan mong pumili ng pinakamababang {{ limit }} ng mga pagpipilian.</target>
             </trans-unit>
             <trans-unit id="7">
                 <source>You must select at most {{ limit }} choice.|You must select at most {{ limit }} choices.</source>
-                <target>Kailangan mong pumili ng pinakamataas {{ limitasyon }} ng pagpipilian.| Kailangan mong pumili ng pinakamataas {{ limitasyon }} ng mga pagpipilian.</target>
+                <target>Kailangan mong pumili ng pinakamataas {{ limit }} ng pagpipilian.| Kailangan mong pumili ng pinakamataas {{ limit }} ng mga pagpipilian.</target>
             </trans-unit>
             <trans-unit id="8">
                 <source>One or more of the given values is invalid.</source>
@@ -64,19 +64,19 @@
             </trans-unit>
             <trans-unit id="16">
                 <source>The file is too large ({{ size }} {{ suffix }}). Allowed maximum size is {{ limit }} {{ suffix }}.</source>
-                <target>Ang file na ito ay masyadong malaki ({{ sukat }} {{ suffix }}). Ang pinakamalaking sukat {{ limitasyon }} {{ suffix }}.</target>
+                <target>Ang file na ito ay masyadong malaki ({{ size }} {{ suffix }}). Ang pinakamalaking sukat {{ limit }} {{ suffix }}.</target>
             </trans-unit>
             <trans-unit id="17">
                 <source>The mime type of the file is invalid ({{ type }}). Allowed mime types are {{ types }}.</source>
-                <target>Ang uri ng file ng mime ay hindi balido ({{ uri }}).Ang mga pinapayagang uri ng mime ay ang  {{ mga uri }}.</target>
+                <target>Ang uri ng file ng mime ay hindi balido ({{ type }}).Ang mga pinapayagang uri ng mime ay ang  {{ types }}.</target>
             </trans-unit>
             <trans-unit id="18">
                 <source>This value should be {{ limit }} or less.</source>
-                <target>Ang halaga nito ay dapat na {{ limitasyon }} or maliit pa.</target>
+                <target>Ang halaga nito ay dapat na {{ limit }} or maliit pa.</target>
             </trans-unit>
             <trans-unit id="19">
                 <source>This value is too long. It should have {{ limit }} character or less.|This value is too long. It should have {{ limit }} characters or less.</source>
-                <target>Ang halaga nito ay masyadong mahaba.Ito ay dapat na {{ limitasyon }} karakter o maliit pa.|Ang halaga nito ay masyadong mahaba. Ito ay dapat na {{ limitasyon }} mga karakter o maliit pa.</target>
+                <target>Ang halaga nito ay masyadong mahaba.Ito ay dapat na {{ limit }} karakter o maliit pa.|Ang halaga nito ay masyadong mahaba. Ito ay dapat na {{ limit }} mga karakter o maliit pa.</target>
             </trans-unit>
             <trans-unit id="20">
                 <source>This value should be {{ limit }} or more.</source>
@@ -84,7 +84,7 @@
             </trans-unit>
             <trans-unit id="21">
                 <source>This value is too short. It should have {{ limit }} character or more.|This value is too short. It should have {{ limit }} characters or more.</source>
-                <target>Ang halaga nito ay masyadong maliit. Ito ay dapat na {{ limitasyon }} karakter o marami pa.|Ang halaga nito ay masyadong maliit. Ito ay dapat na {{ limitasyon }} mga karakter o marami pa.</target>
+                <target>Ang halaga nito ay masyadong maliit. Ito ay dapat na {{ limit }} karakter o marami pa.|Ang halaga nito ay masyadong maliit. Ito ay dapat na {{ limit }} mga karakter o marami pa.</target>
             </trans-unit>
             <trans-unit id="22">
                 <source>This value should not be blank.</source>
@@ -116,7 +116,7 @@
             </trans-unit>
             <trans-unit id="32">
                 <source>The file is too large. Allowed maximum size is {{ limit }} {{ suffix }}.</source>
-                <target>Ang file ay masyadong malaki. Ang pinapayagan halaga lamang ay {{ limitasyon }} {{ suffix }}.</target>
+                <target>Ang file ay masyadong malaki. Ang pinapayagan halaga lamang ay {{ limit}} {{ suffix }}.</target>
             </trans-unit>
             <trans-unit id="33">
                 <source>The file is too large.</source>
@@ -160,19 +160,19 @@
             </trans-unit>
             <trans-unit id="43">
                 <source>The image width is too big ({{ width }}px). Allowed maximum width is {{ max_width }}px.</source>
-                <target>Ang lapad ng imahe ay masyadong malaki ({{ lapad }}px).Ang pinapayagang lapay ay {{ pinakamlaking_lapad }}px.</target>
+                <target>Ang lapad ng imahe ay masyadong malaki ({{ width }}px).Ang pinapayagang lapay ay {{ max_width }}px.</target>
             </trans-unit>
             <trans-unit id="44">
                 <source>The image width is too small ({{ width }}px). Minimum width expected is {{ min_width }}px.</source>
-                <target>Ang lapad ng imahe ay masyadong maliit ({{ lapa }}px). Ng pinakamaliit na pinapayagang lapay ay {{ pinkamaliit_lapad }}px</target>
+                <target>Ang lapad ng imahe ay masyadong maliit ({{ width }}px). Ng pinakamaliit na pinapayagang lapay ay {{ min_width }}px.</target>
             </trans-unit>
             <trans-unit id="45">
                 <source>The image height is too big ({{ height }}px). Allowed maximum height is {{ max_height }}px.</source>
-                <target>Ang haba ng imahe ay masyadong mataas ({{ haba }}px). Ang pinakmataas na haba ay {{ pinakamataas_haba }}px.</target>
+                <target>Ang haba ng imahe ay masyadong mataas ({{ height }}px). Ang pinakmataas na haba ay {{ max_height }}px.</target>
             </trans-unit>
             <trans-unit id="46">
                 <source>The image height is too small ({{ height }}px). Minimum height expected is {{ min_height }}px.</source>
-                <target>Ang haba ng imahe ay masyadong maliit ({{ haba }}px). Ang inaasahang haba ay {{ pinakamaliit_haba }}px.</target>
+                <target>Ang haba ng imahe ay masyadong maliit ({{ height }}px). Ang inaasahang haba ay {{ min_height }}px.</target>
             </trans-unit>
             <trans-unit id="47">
                 <source>This value should be the user's current password.</source>
@@ -180,7 +180,7 @@
             </trans-unit>
             <trans-unit id="48">
                 <source>This value should have exactly {{ limit }} character.|This value should have exactly {{ limit }} characters.</source>
-                <target>Ang halagang ito ay dapat na eksakto sa {{ limitasyon }} karakter.|Ang halagang ito ay dapat na eksakto sa {{ limitasyon }} mga karakter.</target>
+                <target>Ang halagang ito ay dapat na eksakto sa {{ limit}} karakter.|Ang halagang ito ay dapat na eksakto sa {{ limit }} mga karakter.</target>
             </trans-unit>
             <trans-unit id="49">
                 <source>The file was only partially uploaded.</source>
@@ -204,15 +204,15 @@
             </trans-unit>
             <trans-unit id="54">
                 <source>This collection should contain {{ limit }} element or more.|This collection should contain {{ limit }} elements or more.</source>
-                <target>Ang koleksyon na ito ay dapat magkaroon ng {{ limitasyon }} elemento o marami pa.|Ang koleksyon na ito ay dapat magkaroon ng {{ limitasyon }} mga elemento o marami pa.</target>
+                <target>Ang koleksyon na ito ay dapat magkaroon ng {{ limit }} elemento o marami pa.|Ang koleksyon na ito ay dapat magkaroon ng {{ limit }} mga elemento o marami pa.</target>
             </trans-unit>
             <trans-unit id="55">
                 <source>This collection should contain {{ limit }} element or less.|This collection should contain {{ limit }} elements or less.</source>
-                <target>Ang koleksyon na ito ay dapat magkaroon ng {{ limitasyon }} elemento o maliit pa.|Ang koleksyon na ito ay dapat magkaroon ng {{ limitasyon }} mga elemento o maliit pa.<</target>
+                <target>Ang koleksyon na ito ay dapat magkaroon ng {{ limit }} elemento o maliit pa.|Ang koleksyon na ito ay dapat magkaroon ng {{ limit }} mga elemento o maliit pa.<</target>
             </trans-unit>
             <trans-unit id="56">
                 <source>This collection should contain exactly {{ limit }} element.|This collection should contain exactly {{ limit }} elements.</source>
-                <target>Ang koleksyong ito ay magkaroon ng eksaktong {{ limitasyon }} elemento.|Ang koleksyong ito ay magkaroon ng eksaktong {{ limitasyon }} mga elemento.</target>
+                <target>Ang koleksyong ito ay magkaroon ng eksaktong {{ limit }} elemento.|Ang koleksyong ito ay magkaroon ng eksaktong {{ limit }} mga elemento.</target>
             </trans-unit>
             <trans-unit id="57">
                 <source>Invalid card number.</source>
@@ -248,35 +248,35 @@
             </trans-unit>
             <trans-unit id="65">
                 <source>This value should be equal to {{ compared_value }}.</source>
-                <target>Ito ay hindi dapat magkapareho sa {{ ikinumparang_halaga }}.</target>
+                <target>Ito ay hindi dapat magkapareho sa {{ compared_value }}.</target>
             </trans-unit>
             <trans-unit id="66">
                 <source>This value should be greater than {{ compared_value }}.</source>
-                <target>Ang halagang ito ay dapat tataas sa {{ ikinumparang_halaga }}.</target>
+                <target>Ang halagang ito ay dapat tataas sa {{ compared_value }}.</target>
             </trans-unit>
             <trans-unit id="67">
                 <source>This value should be greater than or equal to {{ compared_value }}.</source>
-                <target>Ang halagang ito ay dapat mas mataas o magkapareha sa {{ ikinumparang_halaga }}.</target>
+                <target>Ang halagang ito ay dapat mas mataas o magkapareha sa {{ compared_value }}.</target>
             </trans-unit>
             <trans-unit id="68">
                 <source>This value should be identical to {{ compared_value_type }} {{ compared_value }}.</source>
-                <target>Ang halagang ito ay dapat kapareha ng {{ ikinumparang_halaga }} {{ ikinumparang_halaga }}.</target>
+                <target>Ang halagang ito ay dapat kapareha ng {{ compared_value_type }} {{ compared_value }}.</target>
             </trans-unit>
             <trans-unit id="69">
                 <source>This value should be less than {{ compared_value }}.</source>
-                <target>Ang halagang ito ay dapat mas maliit sa {{ ikinumparang_halaga }}.</target>
+                <target>Ang halagang ito ay dapat mas maliit sa {{ compared_value }}.</target>
             </trans-unit>
             <trans-unit id="70">
                 <source>This value should be less than or equal to {{ compared_value }}.</source>
-                <target>Ang halagang ito ay dapat mas mmaliit o magkapareha sa {{ ikinumparang_halaga }}.</target>
+                <target>Ang halagang ito ay dapat mas mmaliit o magkapareha sa {{ compared_value }}.</target>
             </trans-unit>
             <trans-unit id="71">
                 <source>This value should not be equal to {{ compared_value }}.</source>
-                <target>Ang halagang ito ay hindi dapat magkapareha sa {{ ikinumparang_halaga }}{{ compared_value }}.</target>
+                <target>Ang halagang ito ay hindi dapat magkapareha sa {{ compared_value }}.</target>
             </trans-unit>
             <trans-unit id="72">
                 <source>This value should not be identical to {{ compared_value_type }} {{ compared_value }}.</source>
-                <target>Ang halagang ito ay hindi dapat magkapareha sa {{ ikinumparang_halaga }} {{ ikinumparang_halaga }}.</target>
+                <target>Ang halagang ito ay hindi dapat magkapareha sa {{ compared_value_type }} {{ compared_value }}.</target>
             </trans-unit>
             <trans-unit id="73">
                 <source>The image ratio is too big ({{ ratio }}). Allowed maximum ratio is {{ max_ratio }}.</source>
