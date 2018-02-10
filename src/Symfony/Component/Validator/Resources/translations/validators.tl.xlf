@@ -120,7 +120,7 @@
             </trans-unit>
             <trans-unit id="33">
                 <source>The file is too large.</source>
-                <target>Ang file na ito ay masyadong malaki..</target>
+                <target>Ang file na ito ay masyadong malaki.</target>
             </trans-unit>
             <trans-unit id="34">
                 <source>The file could not be uploaded.</source>
@@ -160,11 +160,11 @@
             </trans-unit>
             <trans-unit id="43">
                 <source>The image width is too big ({{ width }}px). Allowed maximum width is {{ max_width }}px.</source>
-                <target>Ang lapad ng imahe ay masyadong malaki ({{ width }}px).Ang pinapayagang lapay ay {{ max_width }}px.</target>
+                <target>Ang lapad ng imahe ay masyadong malaki ({{ width }}px). Ang pinapayagang lapay ay {{ max_width }}px.</target>
             </trans-unit>
             <trans-unit id="44">
                 <source>The image width is too small ({{ width }}px). Minimum width expected is {{ min_width }}px.</source>
-                <target>Ang lapad ng imahe ay masyadong maliit ({{ width }}px). Ng pinakamaliit na pinapayagang lapad ay {{ min_width }}px.</target>
+                <target>Ang lapad ng imahe ay masyadong maliit ({{ width }}px). Ang pinakamaliit na pinapayagang lapad ay {{ min_width }}px.</target>
             </trans-unit>
             <trans-unit id="45">
                 <source>The image height is too big ({{ height }}px). Allowed maximum height is {{ max_height }}px.</source>
@@ -284,7 +284,7 @@
             </trans-unit>
             <trans-unit id="74">
                 <source>The image ratio is too small ({{ ratio }}). Minimum ratio expected is {{ min_ratio }}.</source>
-                <target>ng ratio ng imahe ay masyadong maliit ({{ ratio }}).Ang pinamaliit na ratio ay {{ min_ratio }}.</target>
+                <target>ng ratio ng imahe ay masyadong maliit ({{ ratio }}). Ang pinamaliit na ratio ay {{ min_ratio }}.</target>
             </trans-unit>
             <trans-unit id="75">
                 <source>The image is square ({{ width }}x{{ height }}px). Square images are not allowed.</source>
@@ -300,7 +300,7 @@
             </trans-unit>
             <trans-unit id="78">
                 <source>An empty file is not allowed.</source>
-                <target>Ang file na walang laman ay hindi pwede</target>
+                <target>Ang file na walang laman ay hindi pwede.</target>
             </trans-unit>
             <trans-unit id="79">
                 <source>The host could not be resolved.</source>
