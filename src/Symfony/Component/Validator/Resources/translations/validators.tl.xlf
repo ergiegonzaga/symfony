@@ -28,7 +28,7 @@
             </trans-unit>
             <trans-unit id="7">
                 <source>You must select at most {{ limit }} choice.|You must select at most {{ limit }} choices.</source>
-                <target>Kailangan mong pumili ng pinakamataas {{ limit }} ng pagpipilian.| Kailangan mong pumili ng pinakamataas {{ limit }} ng mga pagpipilian.</target>
+                <target>Kailangan mong pumili ng pinakamataas {{ limit }} ng pagpipilian.|Kailangan mong pumili ng pinakamataas {{ limit }} ng mga pagpipilian.</target>
             </trans-unit>
             <trans-unit id="8">
                 <source>One or more of the given values is invalid.</source>
@@ -80,7 +80,7 @@
             </trans-unit>
             <trans-unit id="20">
                 <source>This value should be {{ limit }} or more.</source>
-                <target>Ang halaga nito ay dapat na {{ limitasyon }} o mas marami pa.</target>
+                <target>Ang halaga nito ay dapat na {{ limit }} o mas marami pa.</target>
             </trans-unit>
             <trans-unit id="21">
                 <source>This value is too short. It should have {{ limit }} character or more.|This value is too short. It should have {{ limit }} characters or more.</source>
@@ -104,7 +104,7 @@
             </trans-unit>
             <trans-unit id="26">
                 <source>This value is not a valid time.</source>
-                <target>Ang halagang ito ay hindi wastong oras..</target>
+                <target>Ang halagang ito ay hindi wastong oras.</target>
             </trans-unit>
             <trans-unit id="27">
                 <source>This value is not a valid URL.</source>
